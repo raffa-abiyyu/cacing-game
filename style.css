@@ -1,0 +1,33 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+canvas {
+  background: #111;
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #fff;
+}
+.controls {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-template-rows: repeat(2, 60px);
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+.controls button {
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #333;
+  color: white;
+  height: 60px;
+  width: 60px;
+}
+.controls button:active {
+  background-color: #555;
+}
